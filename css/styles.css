@@ -1,0 +1,35 @@
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+}
+/* vh - макс высота, vw - макс ширина, vmin, vmax */
+.outerBlock {
+  width: 100%;
+  height: 500px;
+  border: 5px solid blue;
+  background-color: dodgerblue;
+}
+
+/* свойства для флекс контейнера */
+.flexContainer {
+  display: flex;
+  justify-content: center; /*расположение по горизонту */
+  align-items: center; /* расположение по вертикали*/
+  flex-direction: center;
+}
+
+.innerBlock {
+  width: 200px;
+  height: 200px;
+  border: 5px solid orange;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.innerBlock2 {
+  border: 5px solid green;
+  background-color: greenyellow;
+}

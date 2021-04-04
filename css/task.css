@@ -1,0 +1,85 @@
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+
+  align-items: stretch;
+
+  border: 5px solid rgb(131, 138, 55);
+}
+
+.header {
+  border: 1px solid black;
+  width: 100%;
+  height: 150px;
+  /* justify-content: center; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* width: 100%; */
+  height: 100px;
+  background-color: rgb(36, 34, 34);
+  color: darkgray;
+}
+
+nav > div {
+  margin: 20px;
+}
+.main {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.links > div {
+  margin: 15px;
+}
+.footer {
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+}
+
+.sectionArticle {
+  width: 70%;
+  background-color: red;
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside {
+  width: 30%;
+  background-color: yellow;
+  border: 5px solid green;
+}
+
+.riocoffe {
+  border: 1px solid black;
+  color: darkgray;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+}
+
+.contact {
+}
